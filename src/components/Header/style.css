@@ -1,0 +1,24 @@
+header {
+    background-color: #FFA500; /* Laranja claro */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header div {
+    margin-top: 10px;
+}
+
+header a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}

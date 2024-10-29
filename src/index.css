@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+header {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet); /* Mesmo fundo do corpo */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header div {
+    margin-top: 10px;
+}
+
+header a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.home, .sobre, .contato {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc; /* Linhas finas em volta */
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+}
+
+.home h1, .sobre h1, .contato h1 {
+    color: #333;
+}
+
+.home p, .sobre p, .contato p {
+    color: #666;
+}
